@@ -1,0 +1,145 @@
+body{
+    margin:o;
+    padding:0;
+}
+/* .animate {width: 200px;
+    height: 200px;
+    position: absolute;
+    background: blue;
+    border-radius:50%;
+    animation-name: numune;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-direction:alternate-reverse;
+    animation-delay: 3s;
+    animation-timing-function: ease;
+    -moz-animation-iteration-count: infinite;
+
+}
+@keyframes numune{
+    0%{top:0;
+        left:0;
+background: blue;
+transform: scale(1)
+
+    }
+    25%{top:0;
+        left:500px;
+        background: purple;
+        transform: scale(1.5)
+
+    }
+    50%{top:300px;
+        left:500px;
+        background: greenyellow;
+        transform: scale(0.8)
+
+    }
+    75%{left:0;
+        top:300px;
+        background: orange;
+        transform: scale(1)
+
+    }
+    100%{top:0;
+        left:0;
+        background: blue;
+        transform: scale(1.5)
+
+
+    }
+} */
+.animation{
+    width: 20%;
+    margin: auto;
+    height: 500px;
+    background: red;
+    position: relative;
+    
+
+}
+.item1, .item2{
+    background: blue;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+
+    
+   
+}
+.item1{
+animation-name:item1;
+
+
+
+}
+.item2{animation-name: item2;
+  
+
+}
+@keyframes item1{
+    0%{
+       top:0;
+       left:0;
+       transform:scale(1) rotate(0)
+
+
+    }
+    25%{
+        top:0;
+        left:200px;
+        transform: scale(0.5) rotate(90deg)
+ 
+     }
+     50%{
+         top:200px;
+         left: 200px;
+         transform: scale(1) rotate(180deg)
+     }
+     75%{
+         top:200px;
+         left: 0;
+         transform: scale(0.5) rotate(270deg)
+     }
+     100%{
+         top:0;
+         left:0;
+         transform: scale(1) rotate(360deg)
+     }
+     
+    
+}
+@keyframes item2{
+    0%{
+        top:200px;
+        left:200px;
+        transform:scale(1) rotate(0)
+ 
+ 
+     }
+     25%{
+         top:200px;
+         left:0;
+         transform: scale(0.5) rotate(90deg)
+  
+      }
+      50%{
+          top:0;
+          left: 0;
+          transform: scale(1) rotate(180deg)
+      }
+      75%{
+          top:0;
+          left:200px;
+          transform: scale(0.5) rotate(270deg)
+      }
+      100%{
+          top:200px;
+          left:200px;
+          transform: scale(1) rotate(360deg)
+      }
+    
+}
